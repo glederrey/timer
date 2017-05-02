@@ -49,7 +49,7 @@ class Timer():
         self.running = False
         self.label.text = self.start
         self.label.color = (255, 255, 255, 255)
-		self.label.font_size = 300
+        self.label.font_size = 300
 
     def update(self, dt):
         if self.running:
